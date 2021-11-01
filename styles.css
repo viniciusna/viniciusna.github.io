@@ -29,8 +29,6 @@ font-size: 13px; }
 
 #icones { display: flex; }
 
-.icones-links { }
-
 #link-lattes { border: 3px solid #352a40; }
 
 #link-lattes:hover { border: 3px solid #7700ee; }
