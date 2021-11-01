@@ -9,7 +9,8 @@ a:hover { text-decoration: underline #b09a6b; }
 #container { width: 1000px;  display: flex;  margin: 15px auto; }
 
 #conteudo { display: flex;  flex-direction: column; margin: 10px;  border: 5px solid #2d1c3d;
-background: #352a40;  border-radius: 25px;  font: 16px 'Open Sans';  line-height: 1.5; }
+background: #352a40;  border-radius: 25px;  font: 16px 'Open Sans';  line-height: 1.5;
+text-align: justify; }
 
 #perfil { display: flex;  flex-direction: column;  border: 5px solid #352a40;
 border-radius: 25px;  width: 220px; background: #9cc5e8; margin: 10px; }
