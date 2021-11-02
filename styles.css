@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
 body {background: #080817; }
+
+h1 { font-family: 'Ubuntu', sans-serif;  font-size: 25px; }
 
 a { text-decoration: none; color: #b09a6b; }
 
@@ -9,7 +13,7 @@ a:hover { text-decoration: underline #b09a6b; }
 #container { width: 1000px;  display: flex;  margin: 15px auto; }
 
 #conteudo { display: flex;  flex-direction: column; margin: 10px;  border: 5px solid #2d1c3d;
-background: #352a40;  border-radius: 25px;  font: 16px 'Open Sans';  line-height: 1.5;
+background: #352a40;  border-radius: 25px;  font: 16px 'Open Sans', sans-serif;  line-height: 1.5;
 text-align: justify; }
 
 #perfil { display: flex;  flex-direction: column;  border: 5px solid #352a40;
@@ -23,6 +27,10 @@ border-radius: 25px;  width: 220px;  background: #9cc5e8;  margin: 10px; }
 border-radius: 10px;  align-self: center; }
 
 .dados-perfil { margin: 7px 10px;  font: 14px 'Open Sans'; }
+
+#icones-lings { display: flex;  justify-content: space-around; margin: 2px 10px 10px 9px; }
+
+.lings { width: 40px; }
 
 #contatos { display: flex;  flex-direction: column; margin: 10px; color: #d4ffa3;
 font-size: 13px; }
@@ -40,3 +48,21 @@ font-size: 13px; }
 #icone-lattes { width: 80px; }
 
 .textos { margin: 10px; color: #d5e0c9; }
+
+#cards { display: flex;  justify-content: space-evenly;  flex-wrap: wrap;
+row-gap: 25px;  font: 14px 'Open Sans', sans-serif;  margin-bottom: 25px; }
+
+p { margin: 50px 10px 10px; text-align: justify;  hyphens: auto; }
+
+.card-xp { background: #9cc5e8;  border-radius: 25px; flex-basis: 200px;
+position: relative;  box-shadow: 8px 8px 7px 0 #080817; }
+
+.fitas {position: absolute;  margin-top: 15px; background: #3f6382;
+left: -16px; }
+
+.fitas::before { bottom: -8px; content: '';  position: absolute;
+border-width: 4px 8px 4px 8px ;  border-style: solid;
+border-color: #3f6382 #3f6382 transparent transparent;
+filter: brightness(60%); }
+
+.anos { padding: 20px;  color: #d5e0c9; }
