@@ -66,3 +66,7 @@ border-color: #3f6382 #3f6382 transparent transparent;
 filter: brightness(60%); }
 
 .anos { padding: 20px;  color: #d5e0c9; }
+
+#link-lattes-texto { color: #5c473a; }
+
+#link-lattes-texto:hover { text-decoration: underline #5c473a;  background: #ffc4a2; }
