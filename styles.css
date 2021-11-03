@@ -35,17 +35,26 @@ border-radius: 10px;  align-self: center; }
 #contatos { display: flex;  flex-direction: column; margin: 10px; color: #d4ffa3;
 font-size: 13px; }
 
-#icones { display: flex; }
+#icones { display: flex; align-items: center; justify-content: space-around;
+width: 200px; }
+
+.icones-links { display: flex; align-items: center; justify-content: center; }
+
+#link-fb { height: 46px;  width: 46px; }
+
+#icone-fb:hover { border-radius: 100%; border: 3px solid #149ef8; }
+
+#link-gh { height: 46px;  width: 46px; }
+
+#icone-gh { height: 40px;  width: 40px; }
+
+#icone-gh:hover { border: 3px solid black; border-radius: 100%; }
+
+#icone-lattes { width: 80px; }
 
 #link-lattes { border: 3px solid #352a40; }
 
 #link-lattes:hover { border: 3px solid #7700ee; }
-
-#link-fb { height: 40px;  width: 40px; border: 3px solid #352a40;  border-radius: 100%; }
-
-#link-fb:hover { border-radius: 100%; border: 3px solid #149ef8; }
-
-#icone-lattes { width: 80px; }
 
 .textos { margin: 10px; color: #d5e0c9; }
 
