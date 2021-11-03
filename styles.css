@@ -46,8 +46,6 @@ width: 200px; }
 
 #link-gh { height: 46px;  width: 46px; }
 
-#icone-gh { height: 40px;  width: 40px; }
-
 #icone-gh:hover { border: 3px solid black; border-radius: 100%; }
 
 #icone-lattes { width: 80px; }
