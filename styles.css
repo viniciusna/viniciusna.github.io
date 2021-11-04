@@ -48,12 +48,6 @@ width: 200px; }
 
 #icone-gh:hover { border: 3px solid black; border-radius: 100%; }
 
-#icone-lattes { width: 80px; }
-
-#link-lattes { border: 3px solid #352a40; }
-
-#link-lattes:hover { border: 3px solid #7700ee; }
-
 .textos { margin: 10px; color: #d5e0c9; }
 
 #cards { display: flex;  justify-content: space-evenly;  flex-wrap: wrap;
