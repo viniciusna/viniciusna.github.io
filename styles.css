@@ -28,8 +28,7 @@ border-radius: 10px;  align-self: center; }
 
 .lings { width: 40px; }
 
-#contatos { display: flex;  flex-direction: column; margin: 10px; color: #d4ffa3;
-font-size: 13px; }
+#contatos { display: flex;  flex-direction: column; margin: 10px; }
 
 .div-links { display: flex; align-items: center; justify-content: center;
 flex: 0 60px; }
@@ -50,6 +49,10 @@ border-radius: 100%; }
 #icone-gh { border: 3px solid #352a40; border-radius: 100%; }
 
 #icone-gh:hover { border: 3px solid #d4ffa3; border-radius: 100%; }
+
+#icone-email { border: 3px solid #352a40; border-radius: 100%; }
+
+#icone-email:hover { border: 3px solid #d4ffa3; border-radius: 100%; }
 
 .textos { margin: 20px; color: #d5e0c9; }
 
