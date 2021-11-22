@@ -16,7 +16,7 @@ a { text-decoration: none;
 a:hover { text-decoration: underline #b09a6b; }
 
 main {
-    width: 1000px;
+    width: 1100px;
     display: flex;
     margin: 15px auto;
 }
@@ -155,6 +155,7 @@ p {
     flex-basis: 200px;
     position: relative;
     box-shadow: 8px 8px 7px 0 #080817;
+    margin: 0 30px;
 }
 
 .fitas {
