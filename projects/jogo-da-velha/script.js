@@ -46,24 +46,41 @@ function reset() {
     writeInTag("turn", "O")
 }
 
+function ending() {
+    turn = 0
+    clicked00 = true
+    clicked01 = true
+    clicked02 = true
+    clicked10 = true
+    clicked11 = true
+    clicked12 = true
+    clicked20 = true
+    clicked21 = true
+    clicked22 = true
+}
+
 function gameVerification() {
 
     for (let i = 0; i < 3; i++) {
         if (board[i][0] !== '' && board[i][0] === board[i][1] && board[i][1] === board[i][2]) {
             writeInTag("result", `O jogador de ${board[i][0]} venceu!`)
+            ending()
         }
 
         else if (board[0][i] !== '' && board[0][i] === board[1][i] && board[1][i] === board[2][i]) {
             writeInTag("result", `O jogador de ${board[0][i]} venceu!`)
+            ending()
         }
     }
 
     if ( board[0][0] !== '' && board[0][0] === board[1][1] && board[1][1] === board[2][2]) {
         writeInTag("result", `O jogador de ${board[0][0]} venceu!`)
+        ending()
     }
 
     if ( board[0][2] !== '' && board[0][2] === board[1][1] && board[1][1] === board[2][0]) {
         writeInTag("result", `O jogador de ${board[0][2]} venceu!`)
+        ending()
     }
 }
 
