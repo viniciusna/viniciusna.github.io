@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&display=swap');
+        </style>
+    <title>Hamburgueria</title>
+</head>
+
+<body>
+
+    <main>
+
+        <section id="menu">
+        <h1>Hamburgueria</h1>
+
+        <h2>Cardápio</h2>
+        <p>Monte seu próprio hambúrguer! Escolha seus itens abaixo</p>
+            <div class="container-questions">
+                <p>Pão</p>
+
+                <div class="container-alternatives">
+                    <input id="pao-frances" value="francês" name="pao" type="radio" onclick="showTotal()">
+                    <label for="pao-frances">Pão francês (R$3,00)</label>
+
+                    <input id="pao-australiano" value="Australiano" name="pao" type="radio" onclick="showTotal()">
+                    <label for="pao-australiano">Pão australiano (R$8,00)</label>
+
+                    <input id="pao-de-brioche" value=" de Brioche" name="pao" type="radio" onclick="showTotal()">
+                    <label for="pao-de-brioche">Pão de brioche (R$6,00)</label>
+                </div>
+            </div>
+
+            <div class="container-questions">
+                <p>Hambúrguer</p>
+
+                <div class="container-alternatives">
+                    <input id="ham-picanha" value=" de picanha" name="hamburguer" type="radio" onclick="showTotal()">
+                    <label for="ham-picanha">Hambúrguer de picanha (R$13,00)</label>
+
+                    <input id="ham-costela" value=" de costela" name="hamburguer" type="radio" onclick="showTotal()">
+                    <label for="ham-costela">Hambúrguer de costela (R$10,00)</label>
+
+                    <input id="ham-vegano" value=" vegano" name="hamburguer" type="radio" onclick="showTotal()">
+                    <label for="ham-vegano">Hambúrguer vegano (R$12,00)</label>
+                </div>
+            </div>
+
+            <div class="container-questions">
+                <p>Salada</p>
+
+                <div class="container-alternatives">
+                    <input id="Alface" value="Alface" name="salada" type="radio" onclick="showTotal()">
+                    <label for="Alface">Alface (R$1,50)</label>
+
+                    <input id="tomate" value="Tomate" name="salada" type="radio" onclick="showTotal()">
+                    <label for="tomate">Tomate (R$1,50)</label>
+
+                    <input id="sem-salada" value="NÃO" name="salada" type="radio" onclick="showTotal()">
+                    <label for="sem-salada">Sem salada</label>
+                </div>
+            </div>
+
+            <div class="container-questions">
+                <p>Queijo</p>
+
+                <div class="container-alternatives">
+                    <input id="mussarela" value="mussarela" name="queijo" type="radio" onclick="showTotal()">
+                    <label for="mussarela">Mussarela (R$3,00)</label>
+
+                    <input id="prato" value="prato" name="queijo" type="radio" onclick="showTotal()">
+                    <label for="prato">Prato (R$3,00)</label>
+
+                    <input id="cheddar" value="cheddar" name="queijo" type="radio" onclick="showTotal()">
+                    <label for="cheddar">Cheddar (R$5,00)</label>
+                </div>
+            </div>
+
+            <p id="container-total">Total: <span id="total">R$ 0,00</span></p>
+
+            <button id="confirm" onclick="confirm()"> Confirmar pedido </button>
+        </section>
+
+        <section id="ficha">
+            <h2>Ficha do chapeiro</h2>
+            <p>Pão <span id="pao-awnser"></span></p>
+            <p>Hambúrguer <span id="hamburguer-awnser"></span></p>
+            <p>Salada <span id="salada-awnser"></span></p>
+            <p>Queijo <span id="queijo-awnser"></span></p>
+        </section>
+
+    </main>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,17 @@
+p { border: dotted;  font-size: 40px; }
+
+b { font-size: 40px;  display: inline-block; }
+
+span { font-size: 40px;}
+
+#visible {overflow: visible;  width: 300px; height: 180px;}
+
+#hidden { overflow: hidden;  width: 400px; height: 210px; }
+
+#scroll { overflow: scroll;  width: 400px; height: 210px; }
+
+#visibleauto {overflow: auto;  width: 300px; height: 180px;}
+
+#hiddenauto { overflow: auto;  width: 400px; height: 210px; }
+
+#scrollauto { overflow: auto;  width: 400px; height: 210px; }

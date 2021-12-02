@@ -1,0 +1,33 @@
+span { font-size: 30px;}
+
+p { font-size: 40px;}
+
+body { background: rgb(216, 184, 125);}
+
+.padding { border-color: blue;  background: rgb(215, 208, 255); }
+
+.width { border-color: crimson;  background: rgb(250, 182, 182); }
+
+.height { border-color: gold;  background: rgb(255, 255, 169); }
+
+#box1 { width: 200px;  height: 200px;  padding: 0px;  margin: 0px; }
+
+#box2 { width: 200px;  height: 200px;  padding: 10px;  margin: -204px 215px; }
+
+#box3 { width: 200px;  height: 200px;  padding: 20px;  margin: -225px 450px; }
+
+#box4 {  width: 200px;  height: 200px;  padding: 50px;  margin: -247px 705px; }
+
+#box5 {  width: 200px;  height: 200px;  padding: 100px;  margin: -305px 1025px; }
+
+#boxw1 {  width: 100px;  height: 200px;  margin: 340px 0px; }
+
+#boxw2 {  width: 300px;  height: 200px;  margin: -560px 140px; }
+
+#boxw3 {  width: 500px;  height: 200px;  margin: 340px 480px; }
+
+#boxh1 {  width: 200px;  height: 100px;  margin: -300px 0px; }
+
+#boxh2 {  width: 200px;  height: 300px;  margin: 181px 245px; }
+
+#boxh3 {  width: 200px;  height: 500px;  margin: -501px 490px; }

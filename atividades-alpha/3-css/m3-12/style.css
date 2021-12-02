@@ -1,0 +1,274 @@
+@font-face { font-family: "Chelsea Market"; src: local("Chelsea Market"), local("ChelseaMarket-Regular"), url("https://fonts.gstatic.com/s/chelseamarket/v7/BCawqZsHqfr89WNP_IApC8tzKChiJg8MKVWl.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: block; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Proxima-N-W01-Reg"; src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/7e90123f-e4a7-4689-b41f-6bcfe331c00a.eot?#iefix") format("eot"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/64017d81-9430-4cba-8219-8f5cc28b923e.woff2") format("woff2"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/e56ecb6d-da41-4bd9-982d-2d295bec9ab0.woff") format("woff"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/2aff4f81-3e97-4a83-9e6c-45e33c024796.ttf") format("truetype"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/ab9cd062-380f-4b53-b1a7-c0bec7402235.svg#ab9cd062-380f-4b53-b1a7-c0bec7402235") format("svg"); font-display: block; }
+
+body{
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bagui-fixed {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: flex-end;
+    margin-top: 41px;
+    margin-right: 60px;
+    position: fixed;
+}
+
+#chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 8px;
+    border: none;
+    width: 294px;
+    height: 56px;
+    color: rgb(72, 106, 116);
+    background: rgb(197, 232, 244);
+    box-shadow: 0 0 3px 0 hsl(0deg 1% 71% / 50%);
+    font-family: "chelsea market", HelveticaNeueW01-45Ligh;
+    font-size: 18px;
+}
+
+    #chat:hover {
+        cursor: pointer;
+    }
+
+    #bagui-fixed img:hover {
+        cursor: pointer;
+    }
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+    #logo {
+        height: 155px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 14px;
+    }
+
+    .logo-itens {
+        margin: 0;
+    }
+
+    h1 {
+        font: normal normal normal 40px/1.4em 'chelsea market',fantasy;
+        color: rgb(143,211,232);
+        letter-spacing: 0.05em;
+    }
+
+        h1:hover {
+            cursor: pointer;
+        }
+
+    #pet-shop {
+        font: 700 normal normal 16px/1.4em proxima-n-w01-reg,sans-serif;
+        color: rgb(143,211,232);
+        letter-spacing: 0.25em;
+    }
+
+        #pet-shop:hover {
+            cursor: pointer;
+        }
+
+    #menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background: rgb(247,247,247);
+        height: 39px;
+    }
+
+    #menu ul {
+        font: normal normal normal 14px/1.4em proxima-n-w01-reg,sans-serif;
+        width: 745px;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+            #menu ul li:hover {
+                cursor: pointer;
+                color: rgb(143,211,232);
+            }
+
+#slide {
+    width: 100%;
+    height: 660px;
+    background-image: url(https://static.wixstatic.com/media/8a3e6d_38b8efd0cfff4685ab535766d53a425f~mv2.jpg/v1/fill/w_1519,h_660,q_90/8a3e6d_38b8efd0cfff4685ab535766d53a425f~mv2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    #slide h3 {
+        color: #fff;
+        font: normal normal normal 70px/1.4em 'chelsea market',fantasy;
+        margin-bottom: 32px;
+        text-align: center;
+        line-height: 1em;
+    }
+
+    #slide span {
+        font: normal normal normal 16px/1.4em proxima-n-w01-reg,sans-serif;
+        color: #fff;
+        margin-top: 0;
+    }
+
+#description {
+    display: flex;
+    flex-direction: column;
+    width: 880px;
+    margin-bottom: 210px;
+}
+
+    .itens-description {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .itens-description * {
+            flex-basis: 244px;
+            text-align: center;
+        }
+
+    #title-description {
+        text-align: center;
+        font: normal normal normal 35px/1.4em 'chelsea market',fantasy;
+        color: rgb(143,211,232);
+        margin-top: 110px;
+        margin-bottom: 12px;
+    }
+
+    #description-from-description {
+        text-align: center;
+        font: normal normal normal 15px/1.4em proxima-n-w01-reg,sans-serif;
+        color: rgb(102,101,101);
+        margin: 0 0 67px 0;
+    }
+
+    #icons-description {
+        margin-bottom: 20px;
+    }
+
+    #title-icons {
+        height: 28px;
+        margin: 0 0 13px 0;
+        font: normal normal normal 22px 'chelsea market',fantasy;
+        color: rgb(143,211,232);
+    }
+
+    #paragraph-description {
+        margin: 0 0 24px 0;
+        height: 45px;
+        font: normal normal normal 15px/1.4em proxima-n-w01-reg,sans-serif;
+        color: rgb(102,101,101);
+    }
+
+        #paragraph-description p {
+            margin: 0;
+        }
+
+    .button {
+        color: #fff;
+        background: rgb(143,211,232);
+        border: none;
+        width: 139px;
+        height: 35px;
+    }
+
+        .button:hover {
+            background: rgb(107,158,174);
+            cursor: pointer;
+        }
+
+#images {
+    width: 100%;
+}
+
+    .images-section {
+        display: flex;
+        width: 100%;
+    }
+
+    .images-from-section {
+        width: calc(100%/6);
+        height: 189px;
+        transition: 1s ease;
+    }
+
+        .images-from-section:hover {
+            cursor: pointer;
+            filter: opacity(0.2);
+        }
+
+footer {
+    background: rgb(143,211,232);
+    color: #fff;
+    font: normal normal normal 16px/1.4em proxima-n-w01-reg,sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-section {
+    width: 880px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+    #footer-section * {
+        margin: 45px 0;
+    }
+
+    #left {
+        width: 540px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+        #left span {
+            margin: 0;
+        }
+
+    #right {
+        text-align: right;
+        width: 340px;
+    }
+
+    #right span {
+        margin: 0;
+    }
+
+    #footer-section * a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+#redes-footer {
+    width: 127px;
+    display: flex;
+    justify-content: space-between;
+    margin: -40px 0 0 -7px;
+}
+
+        #redes-footer img:hover {
+            cursor: pointer;
+        }

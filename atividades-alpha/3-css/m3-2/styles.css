@@ -1,0 +1,18 @@
+.texto { font-size: 34px;  text-align: justify;  margin-left: 70px;  margin-right: 70px;}
+
+fieldset { background: whitesmoke;  width: 1500px;  margin: auto;
+border-radius: 20px;  margin-top: 50px;  border-width: 20px;  border-color: #1b1b92; }
+
+img { margin-left: 900px;  margin-top: 60px;  width: 420px; }
+
+#titulo { text-align: center;  margin-top: 50px; font-size: 50px;}
+
+.texto[id] { color:rgb(23, 52, 131);  font-size: 45px;}
+
+p::first-letter { font-family: cursive; }
+
+em:first-child { color: rgb(26, 132, 182);  font-size: 34px;}
+
+em {font-size: 25px;}
+
+p > a { color: rgb(105, 105, 105); }

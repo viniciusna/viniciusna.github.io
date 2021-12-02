@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Forms opinião do cliente</title>
+</head>
+
+<body>
+
+    <main>
+        <h1>Cafeteria coffe-coffe</h1>
+        <h2>Avaliação de satisfação do cliente</h2>
+
+        <section>
+            <div class="questions">
+                <p>O que achou do atendimento?</p>
+
+                <div class="alternatives">
+                    <input id="otimo-atendimento" value="ótimo" type="radio" name='atendimento'>
+                    <label for="otimo-atendimento">ótimo</label>
+
+                    <input id="bom-atendimento" value="bom" type="radio" name='atendimento'>
+                    <label for="bom-atendimento">bom</label>
+
+                    <input id="normal-atendimento" value="normal" type="radio" name='atendimento'>
+                    <label for="normal-atendimento">normal</label>
+
+                    <input id="ruim-atendimento" value="ruim" type="radio" name='atendimento'>
+                    <label for="ruim-atendimento">ruim</label>
+                </div>
+            </div>
+
+            <div class="questions">
+                <p>O que achou dos nossos produtos?</p>
+
+                <div class="alternatives">
+                    <input id="otimo-produtos" value="ótimo" type="radio" name='produtos'>
+                    <label for="otimo-produtos">ótimo</label>
+
+                    <input id="bom-produtos" value="bom" type="radio" name='produtos'>
+                    <label for="bom-produtos">bom</label>
+
+                    <input id="normal-produtos" value="normal" type="radio" name='produtos'>
+                    <label for="normal-produtos">normal</label>
+
+                    <input id="ruim-produtos" value="ruim" type="radio" name='produtos'>
+                    <label for="ruim-produtos">ruim</label>
+                </div>
+            </div>
+
+            <div class="questions">
+                <p>Retornaria ao nosso estabelecimento?</p>
+
+                <div class="alternatives">
+                    <input id="sim-retorno" value="sim" type="radio" name='retorno'>
+                    <label for="sim-retorno">sim</label>
+
+                    <input id="nao-retorno" value="não" type="radio" name='retorno'>
+                    <label for="nao-retorno">não</label>
+
+                    <input id="talvez-retorno" value="talvez" type="radio" name='retorno'>
+                    <label for="talvez-retorno">talvez</label>
+                </div>
+            </div>
+
+            <div class="questions">
+                <p>Recomendaria nosso estabelecimento a algum conhecido?</p>
+
+                <div class="alternatives">
+                    <input id="sim-recomendacao" value="sim" type="radio" name='recomendacao'>
+                    <label for="sim-recomendacao">sim</label>
+
+                    <input id="nao-recomendacao" value="não" type="radio" name='recomendacao'>
+                    <label for="nao-recomendacao">não</label>
+
+                    <input id="talvez-recomendacao" value="talvez" type="radio" name='recomendacao'>
+                    <label for="talvez-recomendacao">talvez</label>
+                </div>
+                </div>
+            </div>
+
+            <button id="enviar" onclick="send()"> Enviar </button>
+        </section>
+
+        <section id="respostas">
+            <h2>Respostas do cliente</h2>
+            <div class="itens-respostas">Atendimento: <span id="resposta-atendimento"></span> </div>
+            <div class="itens-respostas">Produtos: <span id="resposta-produtos"></span> </div>
+            <div class="itens-respostas">Retornaria: <span id="resposta-retornaria"></span> </div>
+            <div class="itens-respostas">Recomendaria: <span id="resposta-recomendacao"></span> </div>
+        </section>
+    </main>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

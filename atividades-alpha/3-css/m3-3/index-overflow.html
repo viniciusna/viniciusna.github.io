@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles-overflow.css">
+    <title>Utilizando overflow</title>
+</head>
+<body>
+    <p>
+        As delimitações da caixa da tag "p" será representado por uma borda pontilhada,
+        como esta em volta desse trecho.
+    </p>
+<hr>
+    <b>1- overflow visible </b>
+    <p id='visible'>
+        Esta caixa tem o valor "visible" para o overflow, o texto ignora as bordas da
+        caixa e "passa por cima" dela
+    </p>
+<hr style="margin-top: 170px;">
+    <b>2- overflow hidden </b>
+    <p id='hidden'>
+        Esta caixa tem o valor hidden e corta o texto que atravessar as bordas.
+        Esta caixa tem o valor hidden e corta o texto que atravessar as bordas.
+    </p>
+<hr>
+    <b>3- overflow scroll</b>
+    <p id='scroll'>
+        Essa caixa tem o valor scroll, isso cria as barras de scroll nas laterais
+        para navegar pelo texto.
+    </p>
+<hr>
+    <b>4- overflow auto</b> <br>
+    <span> Esse coloca o scroll automaticamente se o texto não couber na caixa, se 
+        couber, ele mostra sem as barras de scroll. Utilizando os exemplos anteriores
+        com overflow auto fica:
+    </span> <br>
+
+    <p id='visibleauto'>
+        Esta caixa tem o valor "visible" para o overflow, o texto ignora as bordas da
+        caixa e "passa por cima" dela
+    </p>
+
+    <p id='hiddenauto'>
+        Esta caixa tem o valor hidden e corta o texto que atravessar as bordas.
+        Esta caixa tem o valor hidden e corta o texto que atravessar as bordas.
+    </p>
+
+    <p id='scrollauto'>
+        Essa caixa tem o valor scroll, isso cria as barras de scroll nas laterais
+        para navegar pelo texto.
+    </p>
+
+</body>
+</html>

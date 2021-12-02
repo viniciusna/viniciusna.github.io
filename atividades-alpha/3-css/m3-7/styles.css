@@ -1,0 +1,13 @@
+h1 { color: darkblue; }
+
+#espectro { width: 100%;  height: 200px; border: 2px solid black;
+background-image: linear-gradient(90deg, #5b2c97 0%, rgb(39 57 149) 15%,
+hsl(188deg 100% 39%) 29%, #01ad4d 42%, rgb(248 236 4) 56%, hsl(19deg 88% 54%) 72%,
+#ed1b24 84%, red 100%); }
+
+#espectro-transparente { width: 100%;  height: 200px; border: 2px solid black;
+    background-image: linear-gradient(90deg, #5b2c97 0%, rgb(39 57 149 / 80%) 15%,
+    hsl(188deg 100% 39% / 60%) 29%, #01ad4d85 42%, rgb(248 236 4 / 40%) 56%, hsl(19deg 88% 54% / 20%) 72%,
+    #ed1b2421 84%, #ff000000 100%); }
+
+h2 { margin-top: 50px; color: currentColor; }

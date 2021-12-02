@@ -1,0 +1,344 @@
+@font-face { font-family: "Helvetica-W01-Light"; src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/717f8140-20c9-4892-9815-38b48f14ce2b.eot?#iefix") format("eot"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/03805817-4611-4dbc-8c65-0f73031c3973.woff") format("woff"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/d5f9f72d-afb7-4c57-8348-b4bdac42edbb.ttf") format("truetype"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/05ad458f-263b-413f-b054-6001a987ff3e.svg#05ad458f-263b-413f-b054-6001a987ff3e") format("svg"); font-display: block; }
+@font-face { font-family: "Helvetica-W01-Bold"; src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/f70da45a-a05c-490c-ad62-7db4894b012a.eot?#iefix") format("eot"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/c5749443-93da-4592-b794-42f28d62ef72.woff") format("woff"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/73805f15-38e4-4fb7-8a08-d56bf29b483b.ttf") format("truetype"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/874bbc4a-0091-49f0-93ef-ea4e69c3cc7a.svg#874bbc4a-0091-49f0-93ef-ea4e69c3cc7a") format("svg"); font-display: block; }
+@font-face { font-family: "Avenir-LT-W01_35-Light1475496"; src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix") format("eot"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2") format("woff2"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/908c4810-64db-4b46-bb8e-823eb41f68c0.woff") format("woff"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/4577388c-510f-4366-addb-8b663bcc762a.ttf") format("truetype"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/b0268c31-e450-4159-bfea-e0d20e2b5c0c.svg#b0268c31-e450-4159-bfea-e0d20e2b5c0c") format("svg"); font-display: block; }
+
+body {
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+}
+
+header {
+    width: 1359.2px;
+    margin: 0 auto;
+}
+
+.icones-header {
+    width: 20px;
+    height: 20px;
+}
+
+#header-do-header {
+    height: 50px;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    font: normal normal normal 14px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+
+form {
+    height: 35px;
+}
+
+#el-busca {
+    margin-left: 450px;
+}
+
+#el-busca:hover {
+    border-bottom: 1px solid;
+}
+
+#busca {
+    padding: 8px 0;
+    margin-bottom: 10px;
+    font: normal normal normal 14px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    color: black;
+}
+
+#busca:focus {
+    font: normal normal normal 14px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+
+input {
+    background: transparent;
+    border: none;
+}
+
+input:focus {
+    box-shadow: 0;
+    outline: 0;
+}
+
+#menu-header {
+    width: 980px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#secao-menu {
+    display: flex;
+}
+
+h1 {
+    font: bold 26px 'raleway',sans-serif;
+    margin: auto;
+}
+
+h1:hover {
+    color: rgb(110,63,251);
+    cursor: pointer;
+}
+
+
+#opcoes-menu-header {
+    list-style: none;
+    font: normal normal normal 13px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    display: flex;
+    width: 768px;
+}
+
+.options:hover {
+    cursor: pointer;
+    color: rgb(110,63,251);
+}
+
+#icones {
+    display: flex;
+    margin-left: 210px;
+    align-items: center;
+}
+
+#page-container {
+    margin: 0 auto;
+    background: #f0f0f0;
+    width: 1359.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#secao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box-azul {
+    background: rgb(110,63,251);
+    margin: 40px auto 0;
+    width: 970px;
+    height: 83.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-azul h2 {
+    color: #fff;
+    font: normal normal bold 18px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+}
+
+#painel {
+    width: 970px;
+    height: 428px;
+}
+
+#servicos {
+    width: 980px;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itens-servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-servico {
+    font: normal normal normal 16px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    color: rgb(110,63,251);
+}
+
+.descrição-servico {
+   font: normal normal normal 14px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+
+#celulares {
+    list-style: none;
+    display: flex;
+    width: 980px;
+    height: 403px;
+    margin-bottom: 23px;
+}
+
+.item-celular {
+    width: 195.6;
+    height: 402.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.celular {
+    width: 196px;
+    height: 260px;
+}
+
+#nome-produto {
+    font:normal normal normal 16px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+}
+
+#preco-produto {
+    font: normal normal normal 14px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+
+#botao-add {
+    margin-top: 12px;
+    background: transparent;
+    color: transparent;
+}
+
+.item-celular:hover #botao-add {
+    background: #6e3ffb;
+    color: white;
+}
+
+button {
+    font: normal normal normal 14px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    background: #6e3ffb;
+    border: none;
+    cursor: pointer;
+}
+
+.botoes {margin: 0 415px;}
+
+button:hover {
+    background: #000;
+}
+
+#marcas {
+    background: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 518px;
+}
+
+#logos1 {
+    margin-top: 30px;
+}
+
+#logos2 {
+    margin-bottom: 30px;
+}
+
+#footer-preto {
+    width: 1359.2px;
+    margin: 0 auto;
+    background: #000;
+    color: rgb(240,240,240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 39px;
+}
+
+#secao-footer1 {
+    display: flex;
+    width: 930px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+
+#email {
+    border-bottom: 1px solid #fff;
+    width: 260px;
+    height: 30px;
+}
+
+#email:focus {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font: normal normal normal 14px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+
+#email:hover {
+    border-bottom: 2px solid #fff;
+}
+
+#botao-email{
+    width: 127px;
+    height: 37px;
+}
+
+.opcoes-footer-preto {
+    list-style: none;
+    color: #fff;
+    font: normal normal normal 14px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    
+}
+
+.opcoes-footer-preto li {
+    margin-bottom: 27px;
+    cursor: pointer;
+}
+
+.opcoes-footer-preto li:hover {color: rgb(181,158,252);}
+
+#excecoes1:hover {
+    color: white;
+    cursor: text;
+}
+#excecoes2:hover {
+    color: white;
+    cursor: text;
+}
+#excecoes3:hover {
+    color: white;
+    cursor: text;
+}
+
+#secao-footer2 {
+    display: flex;
+    width: 930px;
+    align-items: center;
+}
+
+#secao-footer3 {
+    display: flex;
+    width: 930px;
+    justify-content: space-between;
+}
+
+#secao-footer3 ul {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+#footer-do-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 970px;
+    margin: 0 auto;
+}
+
+.secao-footer-do-footer {
+    font: normal normal normal 13px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    color: rgb(117,117,117);
+    list-style: none;
+}
+
+.icones-redes {
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
+}
+
+.icones-redes:hover {
+    cursor: pointer;
+}

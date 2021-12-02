@@ -1,0 +1,27 @@
+body { background: deepskyblue; }
+
+span { font-size: 18px; font-family: 'Gluten', cursive; }
+
+#container { background: none; display: flex; flex-direction: column; border: none;
+width: 743px; margin: 20px auto; }
+
+.blocos { border: 3px solid blue;  display: flex; margin-bottom: 40px; background: white;
+border-radius: 10px; flex-direction: row; }
+
+img { width: 100px; height: 110.275px; margin: 30px; border-radius: 10px; }
+
+.imgs { width: 100px; height: 110.275px; margin: 20px; border-radius: 10px; }
+
+.box-img { border: 3px solid #c463c4; border-radius: 10px; flex: 1 1 auto; }
+
+.box-img2 { border: 3px solid #c463c4; border-radius: 10px; flex: 1 1 150px; }
+
+#wrap2 { flex-wrap: wrap; }
+
+#wrap { flex-wrap: wrap; }
+
+#nowrap-coluna {flex-direction: column; height: 880px; }
+
+#wrap-coluna {flex-direction: column; flex-wrap: wrap; height: 880px; }
+
+.box-img-col { border: 3px solid #c463c4; border-radius: 10px; flex: 1 1 auto; }

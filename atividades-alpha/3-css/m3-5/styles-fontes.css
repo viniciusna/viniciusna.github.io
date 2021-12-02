@@ -1,0 +1,12 @@
+body { background: burlywood; }
+
+div { background: whitesmoke;  width: 900px;  margin: auto;  padding: 20px;
+border-radius: 20px;  border: 20px solid #b04d30;  font-size: 18px; }
+
+h1 { text-align: center;  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  font-size: 45px; }
+
+p { text-align: justify;  font-family: Arial, Helvetica, sans-serif;  text-indent: 30px;
+line-height: 1.5;  hyphens: auto; }
+
+a { text-decoration: none;  font-weight: 600;  letter-spacing: 1px;  color: rgb(255, 136, 0); }
