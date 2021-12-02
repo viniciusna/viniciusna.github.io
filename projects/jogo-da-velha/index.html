@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jogo da véia</title>
+</head>
+
+<body>
+
+    <main>
+        <h1>Jogo da velha</h1>
+        <p>Todo mundo conhece as regras, só jogar</p>
+        <p>É a vez de "<span id="turn">O</span>" jogar </p>
+
+        <div id="board-game">
+            <div class="lines" id="line1">
+                <div class="position" id="p00" onclick="mark00()"></div>
+                <div class="position" id="p01" onclick="mark01()"></div>
+                <div class="position" id="p02" onclick="mark02()"></div>
+            </div>
+
+            <div class="lines" id="line2">
+                <div class="position" id="p10" onclick="mark10()"></div>
+                <div class="position" id="p11" onclick="mark11()"></div>
+                <div class="position" id="p12" onclick="mark12()"></div>
+            </div>
+
+            <div class="lines" id="line3">
+                <div class="position" id="p20" onclick="mark20()"></div>
+                <div class="position" id="p21" onclick="mark21()"></div>
+                <div class="position" id="p22" onclick="mark22()"></div>
+            </div>
+        </div>
+
+        <button id="reset" onclick="reset()">RESET</button>
+
+        <p id="result"></p>
+    </main>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
