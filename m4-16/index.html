@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Corrida 2</title>
+</head>
+
+<body>
+
+    <main>
+
+        <section id="container-cars">
+            <div class="cars">
+                <p>Carro do Pedro: <span id="type-car-pedro"> </span></p>
+                <p>Velocidade mínima: <span id="vmin-pedro">150</span> km/h</p>
+                <p>Velocidade máxima: <span id="vmax-pedro">230</span> km/h</p>
+                <p>Derrapagem: <span id="drift-pedro">3</span>% </p>
+                <button class="buttons-car" onclick="createCarPedro()">Criar outro carro</button>
+            </div>
+
+            <div class="cars">
+                <p>Carro do Juca: <span id="type-car-juca"> </span></p>
+                <p>Velocidade mínima: <span id="vmin-juca">120</span> km/h</p>
+                <p>Velocidade máxima: <span id="vmax-juca">260</span> km/h</p>
+                <p>Derrapagem: <span id="drift-juca">5</span>% </p>
+                <button class="buttons-car" onclick="createCarJuca()">Criar outro carro</button>
+            </div>
+
+            <div class="cars">
+                <p>Carro da Edna: <span id="type-car-edna"> </span></p>
+                <p>Velocidade mínima: <span id="vmin-edna">180</span> km/h</p>
+                <p>Velocidade máxima: <span id="vmax-edna">220</span> km/h</p>
+                <p>Derrapagem: <span id="drift-edna">1</span>% </p>
+                <button class="buttons-car" onclick="createCarEdna()">Criar outro carro</button>
+            </div>
+        </section>
+
+        <form>
+            <p>Escolha a modalidade ou o número de voltas da corrida</p>
+
+            <input type="radio" name="modality" id="corrida-rapida" value="10" onclick="lapsOptions()">
+            <label for="corrida-rapida">Corrida rápida</label>
+
+            <input type="radio" name="modality" id="grande-premio" value="70" onclick="lapsOptions()">
+            <label for="grande-premio">Grande Prêmio</label>
+
+            <input type="radio" name="modality" id="Enduro" value="160" onclick="lapsOptions()">
+            <label for="Enduro">Enduro</label>
+
+            <input type="radio" name="modality" id="personalizado" onclick="getInput()">
+            <label for="personalizado">Personalizado: <input id="lapInput" min="1" type="number"> </label>
+
+            <p>Número de voltas: <span id="laps-number"></span></p>
+        </form>
+
+        <p>
+            Obs: Para salvar o número de voltas colocadas na opção "personalizado"
+            você deve clicar na opção para salvar o número de voltas
+        </p>
+
+        <section id="race">
+            <button id="button-start" onclick="race()">START</button>
+
+            <div id="container-data-race">
+                <div>
+                    <span> n° da volta : vencedor da volta </span>
+                <div id="laps"></div>
+                </div>
+
+                <div>
+                    Total de voltas vencidas
+                    <p>Pedro: <span id="pedro-laps-won"></span> </p>
+                    <p>Juca: <span id="juca-laps-won"></span> </p>
+                    <p>Edna: <span id="edna-laps-won"></span> </p>
+                    <p id="tiebreaker"></p>
+                </div>
+                <span id="result"></span>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
