@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<title>Resgate</title>
+</head>
+
+<body>
+<div id="container">
+
+    <div id="fundoGame">
+
+        <div id="inicio" onclick="start()">
+            <h1> Resgate </h1>
+
+            <p>Utilize a tecla W para movimentar o helicóptero para cima, a tecla S para movimentar o helicóptero para baixo e a tecla D para atirar.</p>
+            <p>Regras de pontuação</p>
+            <ul>
+                <li>Atirar em nave dá 100 pontos e a velocidade dela aumenta em 0.3</li>
+                <li>Atirar no caminhão dá 50 pontos</li>
+                <li>Regatar um prisioneiro dá 100 pontos</li>
+                <li>Prisioneiro atropelado pelo caminhão perde 50 pontos</li>
+                <li>Nave inimiga chegar ao final da tela, perde 40 pontos e a velocidade dela aumenta em 0.5</li>
+                <li>Pontuação negativa dá game over</li>
+                <li>Obs: o disparo recarrega ao chegar no final da tela ou ao acertar um inimigo</li>
+            </ul>
+            <p> Clique aqui para iniciar!! </p>
+
+        </div>
+        
+    </div>
+</div>
+
+<!-- Sons do jogo !-->
+<audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+<audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+<audio src="sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+<audio src="sons/gameover.mp3" preload="auto" id="somGameover"></audio>
+<audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>    
+<audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery-collision.min.js"></script>
+</body>
+</html>
