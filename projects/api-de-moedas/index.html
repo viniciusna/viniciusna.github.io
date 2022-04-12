@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cotação de moedas</title>
+</head>
+
+<body>
+
+    <main>
+
+        <div id="container-presentation">
+            <h1>
+                Cotador de moedas estrangeiras <br/>
+                para o real brasileiro (BRL)
+            </h1>
+        </div>
+
+        <div id="container-coins">
+            <label for="coins">Escolha uma moeda</label>
+            <select id="coins" >
+            </select>
+        </div>
+
+        <div id="container-period">
+            <span>Selecione um período de cotizações:</span>
+
+            <div class="input-container">
+                <label for="initial-date">De</label>
+                <input id="initial-date" type="date">
+            </div>
+
+            <div class="input-container">
+                <label for="final-date">Até</label>
+                <input id="final-date" type="date">
+            </div>
+        </div>
+        <button onclick="getCotations()">Pesquisar</button>
+
+        <div id="response"></div>
+
+        <table>
+            <tr>
+                <th>Moeda</th>
+                <th>Cotação</th>
+                <th>Data</th>
+                <th>Hora</th>
+                <th>Mínimo</th>
+                <th>Máximo</th>
+            </tr>
+        </table>
+    </main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- import JQuery -->
+</body>
+
+<script src="script.js"></script>
+
+</html>
